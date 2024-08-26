@@ -47,8 +47,3 @@ elif secim==2:
     listele()
 elif secim==3:
     sil()
-abc = open("c:\\Users\\yasin\\Desktop\\Python\\OrtaSeviye\\rehber.txt", "w")
-abc.write("Dosyaya kayded-2.\nİkinci satır!!\n")
-abc.write("Üçüncü satır") 
-abc.write("Üçüncü satır") 
-abc.close() # oluşturulan her dosya kapatılmalıdır.
