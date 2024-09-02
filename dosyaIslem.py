@@ -1,6 +1,7 @@
 #! PROJE 2
 import rehbereEkle
 import listeleme
+import arama
 kullanıcı=[]
 # def listele():
 #     f = open("c:\\Users\\yasin\\Desktop\\dosyaIslemi\\rehber.txt", "r")
@@ -32,6 +33,6 @@ if secim==1:
 elif secim==2:
     listeleme.listele()
 elif secim==3:
-    ()
+    arama.ara()
 elif secim==4:
     duzenle()
