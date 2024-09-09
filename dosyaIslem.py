@@ -22,9 +22,8 @@ print("║    Rehber Kayıt Listesi     ║")
 print("╠═════════════════════════════╣")
 print("║1-)Rehbere Ekle              ║")
 print("║2-)Kayıtları Listele         ║")
-print("║4-)Kayıt Arama               ║")
-print("║3-)Kayıt Sil                 ║")
-print("║4-)Kayıt Düzenle             ║")
+print("║3-)Kayıt Arama               ║")
+print("║4-)Kayıt Sil                 ║")
 print("╚═════════════════════════════╝")
 secim=int(input("\nLütfen seçim yapınız: "))
 
@@ -34,5 +33,5 @@ elif secim==2:
     listeleme.listele()
 elif secim==3:
     arama.ara()
-elif secim==4:
+elif secim==3:
     duzenle()

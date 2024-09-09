@@ -24,15 +24,17 @@
     # print(durum)
     # if durum == "yok":
     #     os.mkdir(aranan)
+import os
 def ara():
-    with open('rehber.txt') as f:
-        aranan=str(input("Aranan: "))
-        if aranan in f.read():
-            kelime=(f.readline(f.read))
-            print("true")
-            print(kelime)
-        else:
-            print("Yok")
+    liste = os.listdir()
+    durum = "yok"
+    aranan=str(input("Aranıcak Isim: "))
+    for a in liste:
+        if a == aranan: durum = "var"
+
+    print(durum)
+    if durum == "yok":
+        os.mkdir(aranan)
 
 def main():
     ara()
